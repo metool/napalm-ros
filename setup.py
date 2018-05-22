@@ -35,7 +35,7 @@ setup(
         'Operating System :: Microsoft :: Windows',
         'Operating System :: MacOS',
     ],
-    url="https://github.com/napalm-automation-community/napalm-ros",
+    url="https://github.com/metool/napalm-ros",
     include_package_data=True,
     install_requires=reqs,
 )
