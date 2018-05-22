@@ -13,7 +13,7 @@ def parse_requirements(filename):
 
 
 install_reqs = parse_requirements('requirements.txt')
-reqs = [str(ir.req) for ir in install_reqs]
+reqs = [str(ir) for ir in install_reqs]
 
 setup(
     name="napalm-ros",
